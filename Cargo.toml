@@ -1,0 +1,15 @@
+[package]
+name = "toggle"
+version = "0.1.0"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+description = "Typed feature toggles."
+repository = "https://github.com/peterhj/libtoggle"
+documentation = "https://peterhj.github.io/libtoggle/toggle/"
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["toggle", "feature", "flag"]
+
+[lib]
+name = "toggle"
+path = "src/lib.rs"
