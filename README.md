@@ -3,7 +3,7 @@
 `libtoggle` is a Rust library for [feature toggles](http://martinfowler.com/bliki/FeatureToggle.html).
 
 Basic usage:
-```
+```rust
 use toggle::{Toggle, Disabled, Enabled};
 
 struct HelloStruct<MapTg> where MapTg: Toggle<HashMap<String, i32>> {

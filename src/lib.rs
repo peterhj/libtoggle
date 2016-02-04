@@ -74,7 +74,7 @@ mod tests {
 
   #[test]
   fn test_enabled() {
-    let mut hello = Hello{t: Enabled::new(format!("Hello, world!"))};
+    let hello = Hello{t: Enabled::new(format!("Hello, world!"))};
     assert!(hello.t.as_ref().is_some());
   }
 
